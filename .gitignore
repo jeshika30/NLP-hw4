@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+hw4-code/part-1-code/hw4-part1-venv/
+
+# Checkpoints / Models
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+checkpoints/
+hw4-code/part-2-code/checkpoints/
+
+# HuggingFace / caches
+cache/
+*hf_cache*
+huggingface/
+.transformers_cache/
+torch_cache/
+
+# Data (keep large data out of git)
+data/
+datasets/
+*.tar
+*.gz
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Misc temp
+*.tmp
